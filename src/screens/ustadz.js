@@ -281,12 +281,12 @@ export default class App extends Component {
                             </Right>
                         </View>
                         : <View />}
-                    <AdMobBanner
+                    {/* <AdMobBanner
                         adSize="fullBanner"
                         adUnitID="ca-app-pub-6004302968455654/8370873873"
                         testDevices={[AdMobBanner.simulatorId]}
                         onAdFailedToLoad={error => this.emptyAd()}
-                    />
+                    /> */}
                 </View>
             </View>
         );
